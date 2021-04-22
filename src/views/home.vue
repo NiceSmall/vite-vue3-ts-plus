@@ -1,5 +1,5 @@
 <template>
-  <div>----------------home:{{ count }}------------------</div>
+  <div>----------------primary{{ count }}------------------</div>
 </template>
 
 <script lang="ts">
@@ -8,7 +8,7 @@ import { fetchConfig } from '@/api/common'
 
 export default defineComponent({
   setup() {
-    fetchConfig().then((res) => {
+    fetchConfig().then((res: any) => {
       console.log(res)
     })
     const count = ref(0)

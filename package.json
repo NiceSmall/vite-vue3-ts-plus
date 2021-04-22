@@ -11,13 +11,12 @@
     "*.{vue,js,ts}": "eslint --fix"
   },
   "dependencies": {
+    "@vitejs/plugin-vue": "^1.2.1",
     "axios": "^0.21.1",
-    "element-plus": "^1.0.2-beta.40",
     "tailwindcss": "^2.1.1",
+    "vite": "^2.1.5",
     "vue": "^3.0.5",
     "vue-router": "^4.0.6",
-    "vite": "^2.1.5",
-    "@vitejs/plugin-vue": "^1.2.1",
     "vuex": "^4.0.0"
   },
   "devDependencies": {

@@ -9,5 +9,3 @@ declare module 'axios'
 declare module '@'
 
 declare module 'request'
-
-declare module 'element-plus'
