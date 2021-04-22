@@ -15,8 +15,5 @@ module.exports = {
     sourceType: 'module'
   },
   plugins: ['vue', '@typescript-eslint'],
-  rules: {
-    commonjs: false,
-    amd: false
-  }
+  rules: {}
 }

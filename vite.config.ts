@@ -12,7 +12,7 @@ export default defineConfig({
   },
   base: './',
   server: {
-    port: 4000,
+    port: 9531,
     open: true,
     cors: true,
     proxy: {
