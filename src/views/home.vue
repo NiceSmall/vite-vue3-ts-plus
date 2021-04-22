@@ -1,5 +1,5 @@
 <template>
-  <div>----------------primary{{ count }}------------------</div>
+  <div class="text-3xl p-8">----------------HOME{{ count }}------------------</div>
 </template>
 
 <script lang="ts">

@@ -1,10 +1,11 @@
-import { createRouter, createWebHashHistory, RouteRecordRaw } from 'vue-router'
+import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 
 import Home from '@/views/home.vue'
 import Vuex from '@/views/vuex.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
+    alias: '/',
     path: '/home',
     name: 'Home',
     component: Home
@@ -22,7 +23,7 @@ const routes: Array<RouteRecordRaw> = [
 ]
 
 const router = createRouter({
-  history: createWebHashHistory(),
+  history: createWebHistory(),
   routes
 })
 
